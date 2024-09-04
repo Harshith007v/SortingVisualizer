@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.cont {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#container {
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+}

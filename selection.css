@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#container {
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  position: relative; /* Make sure the container is positioned relative for absolute positioning of children */
+}
+
+.bar {
+  width: 30px;
+  background-color: black;
+  margin: 1px;
+  position: relative; /* Each bar should be a positioned element */
+}
+
+.number {
+  position: absolute;
+  top: -20px; /* Adjust this value as needed to position the numbers above the bars */
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(255, 0, 153);
+}
+
+.highlight {
+  background-color: red;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+input {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  border: 1px solid rgb(112, 112, 112);
+}
